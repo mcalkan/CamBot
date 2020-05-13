@@ -1,6 +1,7 @@
 import json 
 import requests
 
+#edit 5 and 6 line
 TOKEN = "token"
 URL = "https://api.telegram.org/token/".format(TOKEN)
 
