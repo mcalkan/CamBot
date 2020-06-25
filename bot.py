@@ -11,7 +11,7 @@ bot =telebot.TeleBot(token=bot_token)
 an = datetime.datetime.now()
 tarih = datetime.datetime.ctime(an)
 
-kisiler = ["hak", "yetis", "mustafa"]
+kisiler = ["hak", "hukuk", "adalet"]
 
 for i in range(len(personal)):
     @bot.message_handler(commands=kisiler[i])
